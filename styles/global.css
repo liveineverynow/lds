@@ -1,0 +1,117 @@
+/*
+
+*/
+html {
+    --grid: clamp(7px, calc(0.4375rem + (8 - 7) * ((100vw - 680px) / (1440 - 680))), 8px);
+    font-size: calc(2 * var(--grid));
+    /* font-size: 16px; */
+    /* --ratio: 1.11; */
+
+    /* Text Size */
+    /* --t1: 1rem; */
+    /* --t2: calc(var(--t1) * var(--ratio)); */
+    /* --t3: calc(var(--t2) * var(--ratio)); */
+    /* --t4: calc(var(--t3) * var(--ratio)); */
+    /* --t5: calc(var(--t4) * var(--ratio)); */
+    /* --t6: calc(var(--t5) * var(--ratio)); */
+    /* --t7: calc(var(--t6) * var(--ratio)); */
+    /* --t8: calc(var(--t7) * var(--ratio)); */
+
+    --t1: clamp(12px, calc(0.875rem + (16 - 14) * ((100vw - 680px) / (1440 - 680))), 12px);
+    --t2: clamp(14px, calc(0.875rem + (16 - 14) * ((100vw - 680px) / (1440 - 680))), 16px);
+    --t3: clamp(16px, calc(1rem + (18 - 16) * ((100vw - 680px) / (1440 - 680))), 18px);
+    --t4: clamp(20px, calc(1.25rem + (22 - 20) * ((100vw - 680px) / (1440 - 680))), 22px);
+    --t5: clamp(22px, calc(1.375rem + (28 - 22) * ((100vw - 680px) / (1440 - 680))), 28px);
+    --t6: clamp(24px, calc(1.5rem + (36 - 24) * ((100vw - 680px) / (1440 - 680))), 36px);
+    --t7: clamp(28px, calc(1.75rem + (40 - 28) * ((100vw - 680px) / (1440 - 680))), 40px);
+    --t8: clamp(34px, calc(2.125rem + (52 - 34) * ((100vw - 680px) / (1440 - 680))), 52px);
+
+    /* Spacing */
+    --s1: calc(1 * var(--grid));
+    --s2: calc(2 * var(--grid));
+    --s3: calc(3 * var(--grid));
+    --s4: calc(4 * var(--grid));
+    --s5: calc(5 * var(--grid));
+    --s6: calc(6 * var(--grid));
+    --s7: calc(7 * var(--grid));
+    --s8: calc(8 * var(--grid));
+    --s9: calc(9 * var(--grid));
+
+    /* Kerning */
+    --k0: 0em;
+    --k1: -1%;
+    --k2: -3%;
+    --k3: 5%;
+
+    /* Line Height */
+    --h1: 1.2;
+    --h2: 1.5;
+    --h3: 1.8;
+
+    /* Font Weight */
+    --w1: 300;
+    --w2: 500;
+    --w3: 900;
+
+    /* Font Family */
+    --body-font: sans-serif;
+    --header-font: serif;
+
+    /* Colors */
+    --black: #212121;
+    --white: #ffffff;
+    --brand: #cfc0ff;
+    --gray1: #e7e7e7;
+    --gray2: #d2d2d2;
+    --gray3: #a3a3a3;
+    --gray4: #7d7d7d;
+
+    /* Border */
+    --b0: none;
+    --b1: 1px solid var(--black);
+
+    /* Border Radius */
+    --r0: none;
+    --r1: 1rem;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--body-font);
+    font-size: var(--t1);
+}
+
+/* Foreground Color Classes */
+.fg-black { color: var(--black); }
+.fg-white { color: var(--white); }
+.fg-brand { color: var(--brand); }
+.fg-gray1 { color: var(--gray1); }
+.fg-gray2 { color: var(--gray2); }
+.fg-gray3 { color: var(--gray3); }
+.fg-gray4 { color: var(--gray4); }
+
+
+/* Background Color Classes */
+.bg-black { background-color: var(--black); }
+.bg-white { background-color: var(--white); }
+.bg-brand { background-color: var(--brand); }
+.bg-gray1 { background-color: var(--gray1); }
+.bg-gray2 { background-color: var(--gray2); }
+.bg-gray3 { background-color: var(--gray3); }
+.bg-gray4 { background-color: var(--gray4); }
+
+/* Letter Spacing Classes */
+.ls1 { letter-spacing: var(--k1) }
+
+/* Font Size Classes */
+.fs1 { font-size: var(--t1); }
+.fs2 { font-size: var(--t2); }
+.fs3 { font-size: var(--t3); }
+.fs4 { font-size: var(--t4); }
+.fs5 { font-size: var(--t5); }
+.fs6 { font-size: var(--t6); }
+.fs7 { font-size: var(--t7); }
+.fs8 { font-size: var(--t8); }
+

@@ -1,0 +1,19 @@
+.demo {
+    display: flex;
+}
+
+.box {
+    width: 500px;
+    height: var(--s3);
+    margin: 0 var(--s1);
+    border: 1px solid var(--c0);
+}
+
+.typo {
+    border: 1px solid var(--c0);
+}
+
+.row td {
+    padding: 5px;
+}
+

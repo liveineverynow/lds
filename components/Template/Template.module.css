@@ -1,0 +1,9 @@
+.base {
+    padding: var(--s2);
+    margin: var(--s2);
+    border: var(--b1);
+}
+
+.bolded {
+    border: var(--b2);
+}
